@@ -1,0 +1,8 @@
+{"timestamp":"2026-09-18T08:10:00","usuario_id":101,"tipo_evento":"clique","produto":"notebook","valor":3500.00}
+{"timestamp":"2026-09-18T09:20:00","usuario_id":102,"tipo_evento":"carrinho","produto":"celular","valor":1800.00}
+{"timestamp":"2026-09-18T10:15:00","usuario_id":103,"tipo_evento":"compra","produto":"notebook","valor":4200.00}
+{"timestamp":"2026-09-18T11:30:00","usuario_id":104,"tipo_evento":"compra","produto":"celular","valor":2100.00}
+{"timestamp":"2026-09-18T12:40:00","usuario_id":105,"tipo_evento":"entrega","produto":"tablet","valor":1500.00,"status_entrega":"entregue"}
+{"timestamp":"2026-09-18T13:50:00","usuario_id":106,"tipo_evento":"compra","produto":"fone","valor":350.00}
+{"timestamp":"2026-09-18T14:25:00","usuario_id":107,"tipo_evento":"entrega","produto":"notebook","valor":3900.00,"status_entrega":"atrasado"}
+{"timestamp":"2026-09-18T15:10:00","usuario_id":108,"tipo_evento":"compra","produto":"smartwatch","valor":900.00}
