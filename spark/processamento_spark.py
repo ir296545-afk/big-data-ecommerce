@@ -41,3 +41,28 @@ vendas_por_produto = compras.groupBy("produto").agg(
 
 print("RESUMO DE VENDAS POR PRODUTO:")
 vendas_por_produto.show(truncate=False)
+
+# Filtra os eventos de entrega do dia anterior
+entregas = eventos_dia_anterior.filter(
+    col("tipo_evento") == "entrega"
+)
+
+print("ENTREGAS REALIZADAS:")
+entregas.show(truncate=False)
+
+resumo_entregas = entregas.groupBy("produto").agg(
+    count("*").alias("quantidade_entregas")
+)
+
+print("RESUMO DE ENTREGAS POR PRODUTO:")
+resumo_entregas.show(truncate=False)
+
+# Cruza as vendas com as entregas usando o produto
+vendas_entregas = vendas_por_produto.join(
+    resumo_entregas,
+    on="produto",
+    how="left"
+).fillna(0, subset=["quantidade_entregas"])
+
+print("CRUZAMENTO DE VENDAS E ENTREGAS:")
+vendas_entregas.show(truncate=False)
