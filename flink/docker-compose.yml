@@ -1,0 +1,38 @@
+
+services:
+  jobmanager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: big-data-ecommerce-flink:1.20.3
+    container_name: flink-jobmanager
+    ports:
+      - "8081:8081"
+    command: jobmanager
+    environment:
+      - |
+        FLINK_PROPERTIES=
+        jobmanager.rpc.address: jobmanager
+    volumes:
+      - ./src:/opt/flink/usrlib
+      - ./data:/opt/flink/data
+      - ./output:/opt/flink/output
+
+  taskmanager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: big-data-ecommerce-flink:1.20.3
+    container_name: flink-taskmanager
+    depends_on:
+      - jobmanager
+    command: taskmanager
+    environment:
+      - |
+        FLINK_PROPERTIES=
+        jobmanager.rpc.address: jobmanager
+        taskmanager.numberOfTaskSlots: 2
+    volumes:
+      - ./src:/opt/flink/usrlib
+      - ./data:/opt/flink/data
+      - ./output:/opt/flink/output
