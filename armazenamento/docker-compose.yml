@@ -1,0 +1,13 @@
+services:
+  hbase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: big-data-ecommerce-hbase:2.6.5
+    container_name: hbase
+    entrypoint: ["/usr/local/bin/start-hbase.sh"]
+    ports:
+      - "16010:16010"
+      - "16000:16000"
+      - "16020:16020"
+      - "2181:2181"

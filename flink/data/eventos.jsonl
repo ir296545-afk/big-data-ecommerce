@@ -1,0 +1,32 @@
+{"timestamp": "2026-09-16T13:32:25.406953", "usuario_id": 442, "tipo_evento": "clique", "produto": "notebook", "valor": 3799.29}
+{"timestamp": "2026-09-16T13:32:26.407456", "usuario_id": 849, "tipo_evento": "clique", "produto": "notebook", "valor": 1552.03}
+{"timestamp": "2026-09-16T13:32:27.413652", "usuario_id": 494, "tipo_evento": "entrega", "produto": "tablet", "valor": 2053.09, "status_entrega": "enviado"}
+{"timestamp": "2026-09-16T13:32:28.414241", "usuario_id": 585, "tipo_evento": "clique", "produto": "smartwatch", "valor": 33.01}
+{"timestamp": "2026-09-16T13:32:29.415108", "usuario_id": 818, "tipo_evento": "compra", "produto": "celular", "valor": 839.66}
+{"timestamp": "2026-09-16T13:32:30.416728", "usuario_id": 531, "tipo_evento": "carrinho", "produto": "tablet", "valor": 1909.52}
+{"timestamp": "2026-09-16T13:32:31.417164", "usuario_id": 13, "tipo_evento": "clique", "produto": "notebook", "valor": 4497.15}
+{"timestamp": "2026-09-16T13:32:32.418047", "usuario_id": 281, "tipo_evento": "compra", "produto": "notebook", "valor": 2607.7}
+{"timestamp": "2026-09-16T13:32:33.419144", "usuario_id": 437, "tipo_evento": "clique", "produto": "smartwatch", "valor": 1570.52}
+{"timestamp": "2026-09-16T13:32:34.420322", "usuario_id": 842, "tipo_evento": "entrega", "produto": "fone", "valor": 760.92, "status_entrega": "enviado"}
+{"timestamp": "2026-09-16T13:32:35.421564", "usuario_id": 462, "tipo_evento": "entrega", "produto": "notebook", "valor": 4621.79, "status_entrega": "em_transito"}
+{"timestamp": "2026-09-16T13:32:36.431886", "usuario_id": 777, "tipo_evento": "compra", "produto": "fone", "valor": 2932.02}
+{"timestamp": "2026-09-16T13:32:37.432454", "usuario_id": 375, "tipo_evento": "carrinho", "produto": "smartwatch", "valor": 2775.2}
+{"timestamp": "2026-09-16T13:32:38.433102", "usuario_id": 578, "tipo_evento": "entrega", "produto": "tablet", "valor": 1979.92, "status_entrega": "atrasado"}
+{"timestamp": "2026-09-16T13:32:39.433442", "usuario_id": 16, "tipo_evento": "compra", "produto": "celular", "valor": 3365.16}
+{"timestamp": "2026-09-16T13:32:40.434065", "usuario_id": 723, "tipo_evento": "compra", "produto": "fone", "valor": 4177.76}
+{"timestamp": "2026-09-16T13:32:41.434628", "usuario_id": 671, "tipo_evento": "clique", "produto": "notebook", "valor": 435.37}
+{"timestamp": "2026-09-16T13:32:42.435790", "usuario_id": 873, "tipo_evento": "carrinho", "produto": "tablet", "valor": 3969.9}
+{"timestamp": "2026-09-16T13:32:43.436631", "usuario_id": 532, "tipo_evento": "carrinho", "produto": "smartwatch", "valor": 4811.61}
+{"timestamp": "2026-09-16T13:32:44.437786", "usuario_id": 131, "tipo_evento": "clique", "produto": "celular", "valor": 47.67}
+{"timestamp": "2026-09-16T13:32:45.439681", "usuario_id": 612, "tipo_evento": "carrinho", "produto": "tablet", "valor": 1216.08}
+{"timestamp": "2026-09-16T13:32:46.441888", "usuario_id": 59, "tipo_evento": "carrinho", "produto": "fone", "valor": 3590.89}
+{"timestamp": "2026-09-16T13:32:47.442246", "usuario_id": 413, "tipo_evento": "carrinho", "produto": "tablet", "valor": 1229.72}
+{"timestamp": "2026-09-16T13:32:48.443093", "usuario_id": 101, "tipo_evento": "carrinho", "produto": "tablet", "valor": 284.56}
+{"timestamp": "2026-09-16T13:32:49.443981", "usuario_id": 526, "tipo_evento": "clique", "produto": "fone", "valor": 3835.27}
+{"timestamp": "2026-09-16T13:32:50.444277", "usuario_id": 176, "tipo_evento": "clique", "produto": "celular", "valor": 1286.49}
+{"timestamp": "2026-09-16T13:32:51.445536", "usuario_id": 552, "tipo_evento": "entrega", "produto": "notebook", "valor": 193.23, "status_entrega": "enviado"}
+{"timestamp": "2026-09-16T13:32:52.446226", "usuario_id": 62, "tipo_evento": "entrega", "produto": "tablet", "valor": 4862.83, "status_entrega": "enviado"}
+{"timestamp": "2026-09-16T13:32:53.446890", "usuario_id": 2, "tipo_evento": "carrinho", "produto": "notebook", "valor": 4315.97}
+{"timestamp": "2026-09-16T13:32:54.447756", "usuario_id": 750, "tipo_evento": "entrega", "produto": "celular", "valor": 2130.38, "status_entrega": "entregue"}
+{"timestamp": "2026-09-16T13:32:55.447989", "usuario_id": 834, "tipo_evento": "carrinho", "produto": "tablet", "valor": 3566.7}
+{"timestamp": "2026-09-16T13:32:56.449034", "usuario_id": 361, "tipo_evento": "carrinho", "produto": "notebook", "valor": 2889.87}
