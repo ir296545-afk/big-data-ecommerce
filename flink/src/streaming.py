@@ -5,10 +5,7 @@ from datetime import datetime
 
 from pyflink.common import Types, WatermarkStrategy, Duration
 from pyflink.datastream import StreamExecutionEnvironment
-from pyflink.datastream.connectors.file_system import (
-    FileSource,
-    StreamFormat,
-)
+from pyflink.datastream.connectors.file_system import (FileSource,StreamFormat,)
 from pyflink.datastream.window import SlidingEventTimeWindows
 from pyflink.datastream.functions import MapFunction
 from pyflink.common.time import Time
