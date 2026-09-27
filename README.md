@@ -12,7 +12,6 @@ Monitoramento de vendas e logística de um e-commerce por meio de uma arquitetur
 
 - Heldemar Soares Braga
 - Juan Carlos Ribeiro Vieira
-- Nívia Lara Camurça de Oliveira Lima
 - José Ivan Luz Ramos
 - Francisco Guilherme Mata Santos
 
